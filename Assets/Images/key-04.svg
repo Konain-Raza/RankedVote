@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="165px" viewBox="0 0 165 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>duplicate</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="duplicate">
+            <circle id="Ellipse_5407" fill="#FFFFFF" fill-rule="nonzero" cx="82.5" cy="82.5" r="82.5"></circle>
+            <path d="M57.6153846,93 L54.0769231,93 C50.1684464,93 47,89.8315536 47,85.9230769 L47,54.0769231 C47,50.1684464 50.1684464,47 54.0769231,47 L85.9230769,47 C89.8315536,47 93,50.1684464 93,54.0769231 L93,57.6153846" id="Path" stroke="#36B37E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle" stroke="#36B37E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" x="71" y="71" width="46" height="46" rx="7"></rect>
+        </g>
+    </g>
+</svg>
