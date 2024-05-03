@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="url_to_your_image" alt="Ranked Vote Clone Logo">
+  <img src="./Assets/Images/fav-icon.png" alt="Ranked Vote Clone Logo" width="70" height="70">
 </p>
 
 # Ranked Vote Clone 🚀
@@ -16,29 +16,32 @@ Embark on your journey with our comprehensive documentation:
    ```bash
    git clone https://github.com/your-username/your-repository.git
    ```
-
-2. **Install Dependencies:**
-   ```bash
-   cd your-repository
-   npm install
-   ```
-
-3. **Fetch Colors and Fonts:**
+   
+2. **Fetch Colors and Fonts:**
    - *Colors:* Immerse yourself in the color palette by extracting hues from the original website using tools like ColorZilla.
    - *Fonts:* Unravel the mystery of typography with WhatFont or delve into the depths of developer tools.
 
-4. **Align and Design:**
+3. **Align and Design:**
    - Embrace creativity as you dissect the layout and alignment using developer tools.
    - Replicate the essence of Ranked Vote with finesse, ensuring responsiveness across all devices.
 
 ### ▶️ Running Locally
 
-Embark on your local adventure:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Konain-Raza/RankedVote
+   ```
 
-```bash
-npm start
-```
+2. **Open the HTML File:**
+ - Navigate to the cloned repository on your local machine.
+ - Locate the index.html file within the project directory.
+ - Double-click or right-click and open the file in your favorite web browser (e.g., Chrome, Firefox, Safari).
+
+
 
 ## 🚀 Deployment
 
 Witness the magic unfold on the digital stage! Our masterpiece is deployed on Netlify, awaiting your exploration: [https://ranked-vote.netlify.app/](https://ranked-vote.netlify.app/)
+
+## 📝 License
+This project is licensed under the MIT License.
