@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".Assets/Images/fav-icon.png" alt="Ranked Vote Clone Logo" width="70" height="70">
+  <img src="./Assets/Images/fav-icon.png" alt="Ranked Vote Clone Logo" width="70" height="70">
 </p>
 
 # Ranked Vote Clone 🚀
