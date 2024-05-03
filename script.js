@@ -5,16 +5,51 @@ var typed = new Typed('#element', {
   fadeOut: true,
   loop: true
 });
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>	
-			const swiper = new Swiper(".swiper", {
-				// Optional parameters
-				direction: "horizontal",
-				loop: true,
 
-				// Navigation arrows
-				navigation: {
-					nextEl: ".swiper-button-next",
-					prevEl: ".swiper-button-prev",
-				},
-			});
-	
+function toggleMobileNav() {
+
+// Initially, set flag to false to indicate that mobile nav is hidden
+var flag = false;
+
+function toggleMobileNav() {
+  // Get the mobile nav element
+  var mobileNav = document.getElementById("mobile-nav");
+  
+  // Toggle the active class on the mobile nav
+  mobileNav.classList.toggle("active");
+
+  // Toggle flag to keep track of mobile nav state
+  flag = !flag;
+}
+
+};
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var index = 0;
+  var comments = document.getElementsByClassName("comments");
+  var prevButton = document.getElementById("prev");
+  var nextButton = document.getElementById("next");
+
+  // Show the first comment by default
+  comments[index].classList.add("active");
+
+  // Function to show the next comment
+  function nextComment() {
+      comments[index].classList.remove("active");
+      index = (index + 1) % comments.length;
+      comments[index].classList.add("active");
+  }
+
+  // Function to show the previous comment
+  function prevComment() {
+      comments[index].classList.remove("active");
+      index = (index - 1 + comments.length) % comments.length;
+      comments[index].classList.add("active");
+  }
+
+  // Event listeners for next and previous buttons
+  nextButton.addEventListener("click", nextComment);
+  prevButton.addEventListener("click", prevComment);
+});

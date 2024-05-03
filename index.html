@@ -19,13 +19,7 @@
    <div id="main">
     <nav>
         <img src="./Assets/Images/nav-logo.svg" alt="logo">
-        <div id="mobile-nav">
-            <a href="">Demo</a>
-            <a href="">Stories</a>
-            <a href="">Guides</a>
-            <a href="">Pricing</a>
-            <a href="">Log In</a>
-        </div>
+   
         
         <div id="nav-links">
             
@@ -66,11 +60,18 @@
             <a href="">Log In</a>
             <button id="signup-button">Sign Up</button>
         </div>
-<div id="mobile-nav-button">
-    <i class="ri-menu-line"></i>
-</div>
+        <div id="mobile-nav-button" onclick="toggleMobileNav()">
+            <i class="ri-menu-line" ></i>
+        </div>
 
     </nav>
+    <div id="mobile-nav">
+        <a href="">Demo</a>
+        <a href="">Stories</a>
+        <a href="">Guides</a>
+        <a href="">Pricing</a>
+        <a href="">Log In</a>
+    </div>
    
     <div id="hero">
 <div id="left-content-hero">
@@ -235,32 +236,28 @@
     </div>
 </div>
 <div id="testimonials">
-    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button id="prev" class="controls"><i class="ri-arrow-left-s-line"></i></button>
 
-<div class="comments active">
-<p>"Our community contest received tens of thousands of votes in a matter of days. No problems. Any questions we had were promptly answered. <br><br> RankedVote handled the scale easily and with all the pro/premium features, there really is no other competitor."</p>
-<img src="./Assets/Images/comments-1.jpeg" alt="">
-<h4>
-    JAT KARUNAKARAN
-<br>
-SENIOR PRODUCT MANAGER, STUDIO WILDCARD</h4>
-</div>
-<!-- <div class="comments active">
-    <p>"By allowing users to test out NYC’s grid-style ballot before heading to the polls, RankedVote offers voters a dynamic and engaging education in the Do's and Don'ts of RCV.
-<br>
-        The City of New York is a proud partner of RankedVote.”</p>
-    <img src="./Assets/Images/comments-2.jpeg" alt="">
-    <h4>LAURA WOOD <br>
-        NEW YORK CITY'S CHIEF DEMOCRACY OFFICER</h4>
-</div>
-<div class="comments active">
-    <p>"If your organization has any interest in RCV education, be sure to include RankedVote in your toolkit."</p>
-    <img src="./Assets/Images/comments-3.jpeg" alt="">
-    <h4>AHMED BUTT <br>
-        CIVIC ENGAGEMENT COORDINATOR, ASIAN AMERICAN FEDERATION</h4>
-</div> -->
-<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-</div>
+    <div class="comments active">
+        <p>"Our community contest received tens of thousands of votes in a matter of days. No problems. Any questions we had were promptly answered. <br><br> RankedVote handled the scale easily and with all the pro/premium features, there really is no other competitor."</p>
+        <img src="./Assets/Images/comments-1.jpeg" alt="">
+        <h4>JAT KARUNAKARAN <br> SENIOR PRODUCT MANAGER, STUDIO WILDCARD</h4>
+    </div>
+    <div class="comments">
+        <p>"By allowing users to test out NYC’s grid-style ballot before heading to the polls, RankedVote offers voters a dynamic and engaging education in the Do's and Don'ts of RCV. <br> The City of New York is a proud partner of RankedVote.”</p>
+        <img src="./Assets/Images/comments-2.jpeg" alt="">
+        <h4>LAURA WOOD <br> NEW YORK CITY'S CHIEF DEMOCRACY OFFICER</h4>
+    </div>
+    <div class="comments">
+        <p>"If your organization has any interest in RCV education, be sure to include RankedVote in your toolkit."</p>
+        <img src="./Assets/Images/comments-3.jpeg" alt="">
+        <h4>AHMED BUTT <br> CIVIC ENGAGEMENT COORDINATOR, ASIAN AMERICAN FEDERATION</h4>
+    </div> 
+    <button id="next" class="controls"><i class="ri-arrow-right-s-line"></i></button>
+</div> 
+
+
+
 <div id="why-ranked">
     <div id="why-ranked-heading">
         <h3>WHY RANKED CHOICE VOTING WORKS</h3>
@@ -300,6 +297,8 @@ SENIOR PRODUCT MANAGER, STUDIO WILDCARD</h4>
         </div>
     </div>
     <div id="right-content-footer">
+
+
         <div class="sec-ul">
             <h1 class="footers-headings">App</h1>
             <ul>
@@ -316,7 +315,7 @@ SENIOR PRODUCT MANAGER, STUDIO WILDCARD</h4>
             <ul>
                 <li><a href="#">Run Contests</a ></li>
                   
-                    <li><a href="#"> Make Decisions</a ></li>
+                    <li><a href="#">Make Decisions</a ></li>
                     <li><a href="#">Educate Voters</a ></li>
                     <li><a href="#">Team Collaboration</a ></li>
                     <li><a href="#">Bulk Programs</a ></li>
